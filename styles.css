@@ -1,3 +1,35 @@
-body {
-	background: blue;
+.table {
+	padding: 10px;
+	background: red;
+	margin-left: 10%;
 }
+
+#image{
+	border-color: red;
+	border-style: dashed;
+	border-width: 10px;
+
+}
+.footer{
+	text-align: center;
+	padding-top: 10%;
+	font-size: 2em;
+
+}
+body{
+	font-family: courier;
+	font-weight: bold;
+	background-image: url("http://humanepursuits.com/wp-content/uploads/2014/06/FreeGreatPicture.com-31480-old-books-and-roses.jpg")
+}
+a:visited{
+	color: red;
+}
+a:link{
+	color: blue;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+
